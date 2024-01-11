@@ -1,0 +1,48 @@
+/*variables*/
+:root{
+    --background-color-:rgb(38, 40, 43);
+    --background-color1-:rgb(213, 216, 221);
+    --color-posible1-:rgb(27, 153, 139);
+}
+/*Animations and imports*/
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+/*Header*/
+body{
+    margin: 0px;
+    background-color: var(--background-color-);
+    font-family: 'Heebo', sans-serif;
+}
+#mabalogo-og-color{
+    width: 8%;
+    margin: 1%;
+
+}
+
+ol{
+    list-style: none;
+}
+.header{
+    background-color: var(--background-color1-);
+    overflow: hidden;
+}
+.header a{
+    float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+#center-anchors , a{
+    text-decoration: none;
+    color: var(--background-color-);
+    display: flexbox;
+}
+a:hover{
+    color:var(--color-posible1-);
+}
+
+/*site*/
+.name{
+    text-align: center;
+}
