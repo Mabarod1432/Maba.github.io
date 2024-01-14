@@ -3,6 +3,7 @@
     --background-color-:rgb(38, 40, 43);
     --background-color1-:rgb(213, 216, 221);
     --color-posible1-:rgb(27, 153, 139);
+    --color-posible2-::rgb(241, 81, 82);
 }
 /*Animations and imports*/
 @import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
@@ -13,36 +14,51 @@ body{
     background-color: var(--background-color-);
     font-family: 'Heebo', sans-serif;
 }
-#mabalogo-og-color{
-    width: 8%;
-    margin: 1%;
 
+#mabalogo-og-color{
+    width: 4%;
+    height: 4%;
+    display: box;
+    float: inline-start;
 }
 
 ol{
     list-style: none;
 }
+.center-anchors img{
+  display: inline-flexbox;
+}
 .header{
     background-color: var(--background-color1-);
-    overflow: hidden;
+    overflow: scroll;
+    margin-right: 2%;
+    margin-left: 2%;
+    border-radius: 1%;
 }
 .header a{
-    float: left;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-#center-anchors , a{
+    float: inline-end;
+    align-items: center;
+    align-content: center;
+    padding-inline-start: 1%;
+    padding-inline-end: 1%;
     text-decoration: none;
     color: var(--background-color-);
-    display: flexbox;
+}
+
+.header li{
+    padding-right: -30px;
 }
 a:hover{
     color:var(--color-posible1-);
 }
 
 /*site*/
+    /*name*/
 .name{
     text-align: center;
+    color: var(--background-color1-);
+}
+/*code area*/
+.code-area{
+    background-color:var(--color-posible1-);
 }
